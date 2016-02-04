@@ -1,0 +1,80 @@
+{
+    "id":"basic",
+    "currentslideshow":"home",
+    "slideshows":[
+
+        {
+            "id":"intro",
+            "name":"intro",
+            "noEditable":"true",
+            "position":"0",
+            "slides":["s0"]
+        },
+        {
+            "id":"s1",
+            "name":"Slide 2",
+            "slides":["s_1"]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "id":"molecule",
+            "name":"Molecule",
+            "slides":["s_2_0"]
+        },
+        {
+            "id":"mechanism",
+            "name":"Mechanism",
+            "slides":["s_3_4","s_3_5"]
+        },
+        {
+            "id":"efficacy",
+            "name":"Efficacy",
+            "slides":["s_4_1","s_3_2"]
+        },
+        {
+            "id":"tolerability",
+            "name":"Tolerability",
+            "slides":["s_12"]
+        },
+        {
+            "id":"quality_of_life",
+            "name":"Quality of life",
+            "slides":["s_6_0","s_6_2"]
+        },
+        {
+            "id":"dosing",
+            "name":"Dosing",
+            "slides":["EF_subanalysis"]
+        },
+        {
+            "id":"summary",
+            "name":"Summary",
+            "noEditable":"true",
+            "position":"-2",
+            "slides":["s_8_0"]
+        },
+        {
+            "id":"survey",
+            "name":"Survey",
+            "noEditable":"true",
+            "position":"-1",
+            "slides":["q_1","q_2"]
+        }
+    ]
+
+}

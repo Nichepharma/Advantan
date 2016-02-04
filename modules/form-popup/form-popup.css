@@ -1,0 +1,82 @@
+#formpopup-wrapper{
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    position:absolute;
+    top:0;
+    left:0;
+    width:1024px;
+    height:768px;
+    opacity:0;
+    pointer-events: none;
+    z-index:9999;
+    background: rgba(245,240,245,0.8);
+    border:1px solid #d2d2d2;
+    -webkit-transform: translate3d(0,0,0);
+}
+#form-popup {
+    -webkit-transform: translate3d(0,0,0);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #CFD3D4),color-stop(1, #F4F5F4));
+    -webkit-box-shadow: 1px 1px 3px 1px #555;
+    border: 1px solid gray;
+    display: -webkit-indline-box;
+    padding: 20px 40px 40px 30px;
+    margin-bottom: 80px;
+    text-align: center;
+    width: 400px;
+}
+#formpopup-wrapper.active{
+    opacity:1;
+    pointer-events:auto;
+}
+#formpopup-wrapper button{
+    width: 368px;
+    height: 50px;
+    border: none;
+    -webkit-box-shadow: 2px 2px 4px 2px #D5D5D5;
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #15a3dd),color-stop(0.5, #c1edff),color-stop(1, #15a3dd));
+    margin-left: 23px;
+    color: white;
+    font-size: 24px;
+    margin-top: 50px;
+}
+#formpopup-wrapper h1{
+    margin-left: 20px;
+    min-width: 250px;
+    padding-top: 30px;
+}
+#formpopup-wrapper input {
+    margin-left: 23px;
+    width: 368px;
+    height: 40px;
+    -webkit-box-shadow: inset 1px 1px 2px 2px #999;
+    color: #15a3dd;
+    text-indent: 15px;
+    font-size: 22px;
+}
+#formpopup-wrapper h3 {
+    color: #777;
+    margin-right: 173px;
+    position: static;
+    min-width: 104px;
+    padding-bottom: 5px;
+    padding-top: 17px;
+}
+#formpopup-wrapper label {
+    margin-left: 50px;
+    color: #15a3dd;
+    text-indent: 15px;
+    font-size: 22px;
+    line-height:50px;
+}
+@media all and (orientation:portrait) {
+    #form-popup {
+        position: absolute;
+        top: 230px;
+        left: 145px;
+    }
+    #formpopup-wrapper{
+        height: 1024px;
+        width: 768px;
+    }
+}

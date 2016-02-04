@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Survey>
+    <!--
+    
+    This xml contains the Questions and Answers shown in the the survey.
+    The Xml I divided in to pages <Page> there can be as many pages as you like.
+    The <Page> can contain:
+
+    <Intro_text> This is a text string, you can use <p> for a new paragraphs.
+
+    <Question> This is a text string.
+    <Input type> Available input types is "radio","checkbox","text"
+    <Answer>  This is a text string.
+
+    <Outro_text> This is a text string.
+
+    -->
+    <Page>
+        <Question>There is the challenge - you have to tick the most beautiful checkbox, okay?</Question>
+        <Input_type>checkbox</Input_type>
+        <Answer>This is pretty box</Answer>
+        <Answer>But this is prettier</Answer>
+        <Answer>Pick me!</Answer>
+    </Page>
+    <Page>
+        <Question>And now the same with radio buttons - pick the right option</Question>
+        <Input_type>radio</Input_type>
+        <Answer>Option 1</Answer>
+        <Answer>Option 2</Answer>
+        <Answer>Option 3</Answer>
+    </Page>
+    <Page>
+        <Question>Pick your favorite number from 1- 10 and the miracle will happen!</Question>
+        <noLine>true</noLine>
+        <Input_type>slider</Input_type>
+        <slider>
+            <from>1</from>
+            <to>10</to>
+        </slider>
+    </Page>
+</Survey>

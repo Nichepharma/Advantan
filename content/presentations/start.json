@@ -1,0 +1,62 @@
+{
+    "name":"basic",
+    "currentslideshow":"builder",
+    "slideshows":[
+        {
+            "id":"builder",
+            "name":"builder",
+            "slides":["g_0","g_3","g_1","g_2"]
+        },
+        {
+            "id":"references",
+            "name":"References",
+            "slides":["s_0_1"]
+        },
+        {
+            "id":"home",
+            "name":"home",
+            "slides":["s_0_0"]
+        },
+        {
+            "id":"pain_is_complex",
+            "name":"Pain is complex",
+            "slides":["s_1_0"]
+        },
+        {
+            "id":"molecule",
+            "name":"Molecule",
+            "slides":["s_2_0"]
+        },
+        {
+            "id":"mechanism",
+            "name":"Mechanism",
+            "slides":["s_3_0","s_3_1","s_4_0"]
+        },
+        {
+            "id":"efficacy",
+            "name":"Efficacy",
+            "slides":["s_3_2"]
+        },
+        {
+            "id":"tolerability",
+            "name":"Tolerability",
+            "slides":["s_5_0"]
+        },
+        {
+            "id":"quality_of_life",
+            "name":"Quality of life",
+            "slides":["s_6_0"]
+        },
+        {
+            "id":"dosing",
+            "name":"Dosing",
+            "slides":["s_7_0"]
+        },
+        {
+            "id":"summary",
+            "name":"Summary",
+            "slides":["s_8_0"]
+        }
+    ]
+
+}

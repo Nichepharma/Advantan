@@ -1,0 +1,23 @@
+{
+    "name":"basic",
+    "currentslideshow":"home",
+    "slideshows":[
+        {
+            "id":"builder",
+            "name":"Builder",
+            "slides":["g_3","g_0","g_1","g_2"],
+            "thumbs":"false"
+        },
+        {
+            "id":"references",
+            "name":"References",
+            "slides":["s_0_1"]
+        },
+        {
+            "id":"home",
+            "name":"",
+            "slides":["s_0_0"]
+        }
+    ]
+
+}

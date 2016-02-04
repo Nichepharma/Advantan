@@ -1,0 +1,118 @@
+﻿
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+    <title>Advantan 1.0</title>
+    <link rel="stylesheet" href="all.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+<div id="loading_wheel" >
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+<div id="presentation">
+    <nav id="mainmenu"></nav>
+    <nav id="searchmenu"></nav>
+    <div id="searchmenu_close"></div>
+    <section id="slideshows" class="slideshows">
+    </section>
+    <div id="popupBackButton" class="back-button"><img id="back_popup_ql" src="content/img/s_6_1/page8_pop.png" /></div>
+    <div id="slidePopup" class="slide-popup"></div>
+    <div id="formpopup-wrapper"></div>
+    <!--start.question-->
+    <div id="question">
+        <p>Opinion on page content</p>
+        <slider id = "qa-slider" min="0" max="10" value="1"></slider>
+        <span>0</span>
+        <span>10</span>
+    </div>
+    <div id="question_button"><span>?</span></div>
+    <!--end.question-->
+    <footer id="mainfooter">
+        <div class="thumbButton">
+            <indicators></indicators>
+        </div>
+        <nav id="thumbs"></nav>
+        <div class="foter"></div>
+        <div id="references"></div>
+    </footer>
+    <footer_s_3_2><div></div><button></button></footer_s_3_2>
+</div>
+
+<!-- FRAMEWORK AND LIBRARIES -->
+<script src="../viewer/js/pdf.js" type="text/javascript" charset="utf-8"></script>
+<script src="../viewer/js/monitor.js" type="text/javascript" charset="utf-8"></script>
+<script src="ag/js/touchy.js" type="text/javascript" charset="utf-8"></script>
+<script src="ag/js/util.js" type="text/javascript" charset="utf-8"></script>
+<script src="addons/expandnative.js" type="text/javascript" charset="utf-8"></script>
+<script src="addons/point.js" type="text/javascript" charset="utf-8"></script>
+<script src="addons/iscrollv3.7.js" type="text/javascript" charset="utf-8"></script>
+<script src="addons/ejs.js" type="text/javascript" charset="utf-8"></script>
+<script src="addons/lazy_monitor.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="ag/js/core.min.js" type="text/javascript" charset="utf-8"></script>-->
+<script src="ag/js/core.js" type="text/javascript" charset="utf-8"></script>
+<script src="addons/zoom.js" type="text/javascript" charset="utf-8"></script>
+<script src="addons/stepClickAnimation.v2.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/data/Data.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="modules/menu/menu.js" type="text/javascript" charset="utf-8"></script>-->
+<script src="modules/basic-menu/basicmenu.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/basic-collection-menu/basic-collection-menu.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/basic-collection-menu/basic-collection-menu-with-scroll.js" type="text/javascript" charset="utf-8"></script>
+<!--
+<script src="modules/basic-thumbs/basicthumbs.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/basic-collection-thumbs/basic-collection-thumbs.js" type="text/javascript" charset="utf-8"></script>
+-->
+<script src="modules/searchMenu/searchmenu.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/references/References.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/slide-popup/slide-popup.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/form-popup/form-popup.js" type="text/javascript" charset="utf-8"></script>
+<script src="addons/slider.v.0.2.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/quality-indicator/impactQualityIndicator.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/drag-and-drop/dragAndDrop.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/drag-and-drop/dragAndDropWithScroll.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/editor/builder.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/editor/presentation-storage.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/editor/section-editor.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/editor/slide-editor.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/editor/presentation-view.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/questionnaire/Questionnaire.js" type="text/javascript" charset="utf-8"></script>
+<script src="addons/draggy2.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="modules/thumb/thumb.js" type="text/javascript" charset="utf-8"></script>-->
+<script src="modules/thumb/thumb2.0.js" type="text/javascript" charset="utf-8"></script>
+<script src="modules/resize/resize.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="modules/hack/hack.js" type="text/javascript" charset="utf-8"></script>-->
+<script src="code/js/storage.js" type="text/javascript" charset="utf-8"></script>
+<script src="code/js/slides.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="code/js/monitoring_map.js" type="text/javascript" charset="utf-8"></script>-->
+<script src="code/js/questionnaire.init.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="code/js/editor-full.js" type="text/javascript" charset="utf-8"></script>
+<!-- INIT OF APP -->
+<script type="text/javascript" charset="utf-8">
+    /*debug();*/
+    var builder = new DynamicPresentationBuilder(JSON.parse(request("content/presentations/searchmenu.json")));
+    builder.build(JSON.parse(request("content/presentations/default.json")),JSON.parse(request("content/presentations/last-port.json")));
+    /* builder.build(JSON.parse(request("content/presentations/last-port.json")));*/
+    document.ontouchmove = function(e){e.preventDefault();}
+</script>
+<!-- CUSTOM APP JAVASCRIPT -->
+<!-- LOAD CONTENT -->
+</body>
+</html>

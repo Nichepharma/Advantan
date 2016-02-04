@@ -1,0 +1,28 @@
+{
+    "id":"vert-magazine",
+    "name":"Magazine",
+    "currentslideshow":"references1",
+    "slideshows":[
+        {
+            "id":"references1",
+            "name":"References1",
+            "slides":["s_9_0"]
+        },
+        {
+            "id":"references2",
+            "name":"References2",
+            "slides":["s_9_1"]
+        },
+        {
+            "id":"references3",
+            "name":"References3",
+            "slides":["s_9_2"]
+        },
+        {
+            "id":"references4",
+            "name":"References4",
+            "slides":["s_9_3"]
+        }
+    ]
+
+}

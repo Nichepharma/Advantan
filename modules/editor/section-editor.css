@@ -1,0 +1,38 @@
+#g_2 .area {
+    width: 390px;
+    height: 600px;
+    top: 200px;
+    left: 310px;
+    position: absolute;
+}
+
+#g_2 .drag-chapter{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(104, 183, 18, 1)), color-stop(48%,rgba(100, 182, 19, 1)), color-stop(52%,rgba(88, 163, 17, 1)), color-stop(100%,rgba(76, 141, 15, 1)));
+    text-align: center;
+    color: white;
+    width: 230px;
+    padding: 7px 0 0 0;
+    height: 30px;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #7B886F;
+    border: 2px solid #7B886F;
+    clear: both;
+    font-size: 18px;
+    text-shadow: 0 0 1px black;
+}
+#g_2 .drag-chapter span{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#g_2 .remove{
+    position:absolute;
+    left:10px;
+    top:10px;
+    background:url("../../content/img/remove.png");
+    width:18px;
+    height:18px;
+}
+#g_2 .remove.active{
+    opacity:1;
+}

@@ -1,0 +1,62 @@
+/******* BLUE THEME ************/
+
+/*
+.Page_Background{ background-image:url('../images/Questionnaire/Bayer_Background.png');}
+
+.Aero_left.on{ background-image:url('../images/Questionnaire/arrow_left_on.png')}
+.Aero_left.off{ background-image:url('../images/Questionnaire/arrow_left_off.png')}
+.Aero_right.on{ background-image:url('../images/Questionnaire/arrow_right_on.png')}
+.Aero_right.off{ background-image:url('../images/Questionnaire/arrow_right_off.png')}
+
+.Survey_background{ background-image:url('../images/Questionnaire/Gradient.png');}
+.Steps_Progress_Background{ background-image:url('../images/Questionnaire/Steps_Progress.png');}
+.Steps_Background{ background-image:url('../images/Questionnaire/Steps_Background.png');}
+.Steps_Progress_Counter{ color: #ffffff; }
+
+.questionnaire-indicator{top: 680px;}
+
+*/
+/**************** XARELTO **************/
+
+.Page_Background{ }
+
+.Aero_left.on{ background-image:url('../../content/img/Questionnaire/arrow_left_on.png')}
+.Aero_left.off{ background-image:url('../../content/img/Questionnaire/arrow_left_off.png')}
+.Aero_right.on{ background-image:url('../../content/img/Questionnaire/arrow_right_on.png')}
+.Aero_right.off{ background-image:url('../../content/img/Questionnaire/arrow_right_off.png')}
+
+
+.Survey_background{ border-radius:2px; border: 2px solid #2ca0da;-webkit-box-shadow: inset -2px -2px 2px rgba(0,0,0,0.3),inset 2px 2px 2px rgba(255,255,255,0.3); }
+.Steps_Progress_Background{  background-image: -webkit-gradient(linear, center top, center bottom, from(#c8e554), to(#9dbf15));}
+.Steps_Background{background-image: -webkit-gradient(linear, center top, center bottom, from(#efeded), to(#cbc9c9));}
+.Steps_Progress_Counter{ color: #ffffff;}
+
+
+/*********** CUSTOM PAGE LAYOUT ************/
+
+.questionnaire-indicator{top: 405px;} /* POSITION OF INDICATOR */
+
+.questionnaire-container .horizontal-line {} /* HORIZONTAL LINE ALWAYS SHOWN AFTER QUESTION , BUT IF NEED STYLES CAN BE CHANGED*/
+
+/** STYLE FOR POPUP **/
+.questionnaire-container .QuestionPopup{position: absolute; width: 256px; height: 59px; background: url(../../content/img/Questionnaire/popbg.png) no-repeat;}
+.questionnaire-container .QuestionPopup .aligner{display: table-cell;  width: 256px;  height: 59px;  text-align: center;  vertical-align: middle;}
+.questionnaire-container .QuestionPopup .text-container{ padding: 2%; font: 14px 'Arial'; color: gray; /*text-align: left;*/}
+.questionnaire-indicator .popup-corner {position: absolute; left: 0px; top: 56px; width: 23px; height: 29px; background: url(../../content/img/Questionnaire/cornerpop.png) no-repeat;}
+
+
+/* EXAMPLE STYLE FOR 2nd PAGE TAG IN XML CLASS NAME MUST BE LIKE NEXT -> .qpage-XXX , where XXX number (NUMERATION FROM 0)*/
+.questionnaire-container .qpage-h-1{ /* STYLE FOR QUESTION */
+    /*color: white;*/
+}
+
+/* STYLE FOR IMAGE (PAGE 6, count from 0) */
+.questionnaire-container .page-content[forstyle=qpage-6] img{
+}
+
+@media all and (orientation:portrait) {
+    .questionnaire-indicator{top: 585px;} /* POSITION OF INDICATOR */
+}
+/*
+#q_1{background:url("../../content/img/Questionnaire/back.jpg")}
+*/

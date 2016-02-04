@@ -1,0 +1,18 @@
+.basicthumbs {
+  display:-webkit-box;
+  -webkit-box-orient:horizontal;
+}
+.basicthumbs li {
+  background-color:#333;
+  border-right:1px solid #545454;
+  color:#ddd;
+  text-align:center;
+  -webkit-box-flex:1;
+}
+.basicthumbs .selected {
+  background-color:#000;
+}
+.thumbindicator {
+  padding:15px;
+}
+

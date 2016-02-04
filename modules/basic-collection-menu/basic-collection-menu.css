@@ -1,0 +1,42 @@
+.thumb-indicators {
+  position:absolute;
+  bottom:20px;
+}
+.basicmenu {
+    /*display:-webkit-box;
+    -webkit-box-orient:horizontal;*/
+    overflow:hidden;
+    background: url("../../content/img/menu/background.png");
+    white-space: nowrap;
+    float: left;
+    font-family: Eurostile_Oblique;
+    font-size: 19px;
+}
+.basicmenu li {
+    /* background-color:#333;*/
+    border-right: solid 1px #7a9cc9;
+    color:#ffffff;
+    height:20px;
+    text-align:center;
+    display:block;
+    float:left;
+    pointer-events:auto;
+    padding: 15px 30px;
+    /*-webkit-box-flex:1;*/
+}
+.basicmenu .selected {
+    color: #5B7F8D;
+    background:-webkit-gradient(linear,left bottom,left top,color-stop(0.2, #fbf9f9),color-stop(1.0, #b3b3b3));
+    /*-webkit-box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;*/
+}
+.basicmenu li[data-goto='basic.home'] {
+    width: 60px;
+    height: 50px;
+    padding: 0px;
+    background: url(../../content/img/menu/home-button.png) no-repeat center center;
+}
+.basicmenu li[data-goto='basic.home'].selected {background: url(../../content/img/menu/home-button-active.png) no-repeat center center, #58595B;}
+
+@media all and (orientation:landscape) {
+    li[data-goto='vert-magazine']{display:none;}
+}

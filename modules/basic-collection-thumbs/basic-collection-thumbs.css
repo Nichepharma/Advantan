@@ -1,0 +1,130 @@
+.basicthumbs {
+    /*    display:-webkit-box;
+  -webkit-box-orient:horizontal;
+  background-color:#71777B;
+  padding: 10px 0;*/
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    background-color:#71777B;
+    padding: 10px 0;
+}
+.basicthumbs li {
+    /*    color:#ddd;
+  text-align:center;
+  -webkit-box-flex:0;
+  padding: 0 5px;
+  min-width: 136px;
+  border-left: 1px solid #919599;
+  border-right: none;
+  background-color: #71777B;
+  padding: 5px 0;*/
+    color: #DDD;
+    text-align: center;
+    padding: 0 5px;
+    min-width: 136px;
+    border-left: 1px solid #919599;
+    border-right: none;
+    background-color: #71777B;
+    padding: 5px 0;
+    display: inline-block;
+    position: relative;
+}
+.basicthumbs .selected {background: none;}
+.basicthumbs li img {opacity: 0.5;}
+.basicthumbs .selected img {opacity: 1;}
+.basicthumbs li:first-child{border-left: none;}
+
+.thumbindicator {
+    padding:15px;
+}
+.thumbButton {
+    display: none;
+    width: 100%;
+    height: 22px;
+    background: url('../../content/img/slider_landscape.png') no-repeat top center;
+    position: absolute;
+    top: -22px;
+}
+.thumbButton.on {
+    background-position: bottom center;
+}
+
+.thumbButton.show {
+    display: block;
+}
+
+
+#thumbs {
+    z-index:3;
+    height: 0;
+    overflow: hidden;
+    background-color: #71777B;
+    width: 100%;
+}
+
+#thumbs.transition {
+    -webkit-transition: all linear 0.3s;
+}
+
+#thumbs.active {
+    height: 167px;
+    display: block !important;
+}
+
+.scroll-wrapper {
+}
+
+#thumbs ul {
+    list-style: none;
+    height: 100%;
+}
+
+#thumbs li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px 20px;
+    margin-top: 10px;
+    border-right: 1px solid gray;
+}
+
+#thumbs li img{
+    opacity: 0.5;
+    -webkit-opacity: 0.5;
+}
+
+#thumbs li.active  img{
+    opacity: 1;
+    -webkit-opacity: 1;
+}
+
+#thumbs li.active {
+
+}
+
+indicators {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    display: block;
+    text-align: center;
+}
+
+indicators indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url("../../content/img/indicator.png") left top no-repeat;
+    margin-right: 7px;
+}
+
+indicators indicator.active {
+    background-position: right top;
+}
+.th_show {display: block;}
+.foter{
+    width: 100%;
+    height: 55px;
+    z-index: 10;
+    background: url("../../content/img/left-logo.png") no-repeat 10px 10px, url("../../content/img/right-logo.png") no-repeat right 10px,white;
+}

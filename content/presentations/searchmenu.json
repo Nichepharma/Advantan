@@ -1,0 +1,63 @@
+{
+    "name":"basic",
+    "currentslideshow":"home",
+    "searchmenu":[
+        {
+            "id":"s_0_0",
+            "name":"Frontpage"
+        },
+        {
+            "id":"s_0_1",
+            "name":"References"
+        },
+        {
+            "id":"s_1_0",
+            "name":"Pain is complex"
+        },
+        {
+            "id":"s_1_1",
+            "name":"Vicious circle"
+        },
+        {
+            "id":"s_2_0",
+            "name":"2 mechanisms in 1 molecule"
+        },
+        {
+            "id":"s_3_0",
+            "name":"A unique mechanism of action"
+        },
+        {
+            "id":"s_3_1",
+            "name":"Pathways"
+        },
+        {
+            "id":"s_3_2",
+            "name":"Nerve receptors"
+        },
+        {
+            "id":"s_4_0",
+            "name":"Strong efficacy LBP"
+        },
+        {
+            "id":"s_5_0",
+            "name":"Tolerability LBP"
+        },
+        {
+            "id":"s_6_0",
+            "name":"Benefits – QoL"
+        },
+        {
+            "id":"s_6_1",
+            "name":"Quality of Life"
+        },
+        {
+            "id":"s_7_0",
+            "name":"Dosing Card"
+        },
+        {
+            "id":"s_8_0",
+            "name":"Summary"
+        }
+    ]
+
+}
