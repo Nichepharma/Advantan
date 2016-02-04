@@ -1,42 +1,13 @@
 
 /*Slide Zero*/
-.s0_img_logo {
-    padding: 0;
-    left: 100px;
-    top: 100px;
-    /*position: relative;*/
-    /*animation-name: ;*/
-    /*animation-duration: 4s;*/
-    /*animation-delay: 0s;*/
-
-    -webkit-animation-name: moveTo;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: linear;
-    /*-webkit-animation-fill-mode: forwards;*/
+.s0_img_logo{
+	padding: 0;
+	margin-left: 50px;
+	margin-top: 100px;
 }
-/* Chrome, Safari, Opera */
-  @keyframes moveTo {
-     from {
-         top: -100px;}
-     to {top: 100px;}
- }
-
-
-
 .s0_img_img2{
      margin-left:650px;
-    opacity: 0;
-    /*visibility: hidden;*/
-    animation-name: so_img_img2_animations;
-    animation-duration: 4s;
-    animation-delay: 3s;
- }@keyframes so_img_img2_animations {
-    from{ opacity: 0;  }
-      to{ opacity: 1;}
-  }
-
-
+ }
 
 /*Slide One*/
 .s1_img_Box{
