@@ -101,3 +101,32 @@ margin-top: -350px;
    margin-top: -40px;
    margin-left:50px;
  }
+ /* Slide Fivteen*/
+ .s15_title{
+   margin-top:130px;
+ }
+ .s15_video{
+   margin-top: 50px;
+   margin-left:60px;
+ }
+ /* Slide Sixeen*/
+ .s16_title{
+   margin-top:130px;
+ }
+ .s16_img{
+
+    margin-top: 80px;
+   margin-left:200px;
+   width:368px;
+   float: left;
+ }
+ .s16_imgs{
+   width: 331px;
+   float: right;
+   margin-top: 80px;
+margin-right: 80px;
+ }
+ .s16_ref{
+   margin-top: 530px;
+   margin-left:80px;
+ }
