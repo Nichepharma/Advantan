@@ -15,27 +15,6 @@ html body {
       height: 768px;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bkg_s2{
        background: url("../../img/S2/S2-01.png") no-repeat;
        width: 1024px;
@@ -64,7 +43,32 @@ html body {
              background: url("../../img/S1/S1-01.png") no-repeat;
              width: 1024px;
              height: 768px;
-         }
+         }.bkg_s9{
+              background: url("../../img/S1/S1-01.png") no-repeat;
+              width: 1024px;
+              height: 768px;
+          }.bkg_s10{
+               background: url("../../img/S10/S10-01.png") no-repeat;
+               width: 1024px;
+               height: 768px;
+           }
+           .bkg_s11{
+                background: url("../../img/S11/S11-01.png") no-repeat;
+                width: 1024px;
+                height: 768px;
+            }.bkg_s12{
+                    background: url("../../img/S12/S12-01.png") no-repeat;
+                    width: 1024px;
+                    height: 768px;
+                }.bkg_s13{
+                        background: url("../../img/S13/S13-01.png") no-repeat;
+                        width: 1024px;
+                        height: 768px;
+                    }.bkg_s14{
+                            background: url("../../img/S14/S14-01.png") no-repeat;
+                            width: 1024px;
+                            height: 768px;
+                        }
 
 
 
