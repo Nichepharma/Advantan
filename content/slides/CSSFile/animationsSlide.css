@@ -109,7 +109,7 @@ margin-top: -350px;
    margin-top: 50px;
    margin-left:60px;
  }
- /* Slide Sixeen*/
+ /* Slide Sixteen*/
  .s16_title{
    margin-top:130px;
  }
@@ -130,3 +130,173 @@ margin-right: 80px;
    margin-top: 530px;
    margin-left:80px;
  }
+ /*Seventeen*/
+ .s17_title{
+   margin-top:150px;
+   margin-left: 65px;
+
+ }
+ .s17_sub_title{
+margin-left: 65px;
+ }
+ .s17_img_desc{
+      margin-left: 65px;
+      margin-top: 30px;
+  }
+/*Eighteen*/
+.s18_graph1{
+  margin-top:150px;
+  margin-left: 65px;
+  width:315px;
+  float: left;
+position: relative;
+}
+.s18_graph2{
+  margin-top:150px;
+  margin-left:15px;
+  width:261px;
+  float: left;
+  position: relative;
+}
+.s18_box{
+  margin-top:230px;
+  margin-left:20px;
+  width:290px;
+  float: left;
+}
+.s18_bar1{
+
+margin-left: 50px;
+margin-top: 27px;
+float: left;
+width: 112px;
+position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1;
+}
+.s18_bar2{
+margin-left: 185px;
+margin-top: 27px;
+float: left;
+width: 125px;
+position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1;
+}
+.s18_bar3{
+margin-left: 25px;
+margin-top: 27px;
+float: left;
+width: 113px;
+position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1;
+}
+.s18_bar4{
+margin-left: 160px;
+margin-top: 27px;
+float: left;
+width: 125px;
+position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1;
+}
+.s18_img_desc{
+     margin-left: 65px;
+     margin-top: 15px;
+ }
+.clr{
+  clear: both;
+}
+/*Nineteen*/
+.s19_title{
+  margin-top: 130px;
+}
+.s19_sub_title{
+  margin-top: 10px;
+margin-left: 180px;
+}
+.s19_graph{
+  margin-top:10px;
+  margin-left:70px;
+  width:883px;
+  float: left;
+  position: relative;
+}
+.s19_bars{
+margin-left: 70px;
+margin-top: 35px;
+float: left;
+width: 804px;
+position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1;
+}
+.s19_img_desc{
+  margin-left: 65px;
+  margin-top: 15px;
+}
+/*Tweenty*/
+.s20_title{
+  margin-top: 130px;
+}
+.s20_graph{
+margin-top: 10px;
+margin-left: 100px;
+width:829px;
+float: left;
+position: relative;
+}
+.s20_bars{
+margin-left: 60px;
+margin-top: 43px;
+float: left;
+width: 256px;
+position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1;
+}
+.s20_bars2{
+margin-left: 540px;
+margin-top: 40px;
+float: left;
+width: 252px;
+position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1;
+}
+.s20_table{
+margin-top: 10px;
+margin-left: 50px;
+width:489px;
+float: left;
+}
+.s20_table2{
+margin-top: 10px;
+margin-left: 50px;
+width:383px;
+float: left;
+}
+.s20_img_desc{
+  margin-left: 65px;
+  margin-top: 15px;
+}
+/*Tweentyone*/
+.s21_title{
+  margin-top: 130px;
+}
+.s21_sub_title{
+  margin-top: 10px;
+margin-left: 50px;
+}
+.s21_img_desc{
+  margin-left: 65px;
+  margin-top: 15px;
+}
