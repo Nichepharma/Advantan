@@ -1,117 +1,205 @@
+@keyframes ImageFadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}@keyframes imageScaleIn {
 
-/*Slide Zero*/
-.s0_img_logo {
-    padding: 0;
-    left: 100px;
-    top: 100px;
-    /*position: relative;*/
-    /*animation-name: ;*/
-    /*animation-duration: 4s;*/
-    /*animation-delay: 0s;*/
-
-    -webkit-animation-name: moveTo;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: linear;
-    /*-webkit-animation-fill-mode: forwards;*/
+  0% {
+   transform: scale(0.1);
+   opacity: 0;
+ }
+ 50% {
+   transform: scale(1.2);
+   opacity: 1;
+ }
+ 100% {
+   transform: scale(1);
+ }
 }
-/* Chrome, Safari, Opera */
-  @keyframes moveTo {
-     from {
-         top: -100px;}
-     to {top: 100px;}
+
+
+
+
+ /*Slide Zero*/
+ #slide0.s0_img_logo {
+   position: absolute;
+       left: 50px;
+       top: 100px;
+
+     -webkit-animation: moveTo ;
+       animation-duration: 2s;
+       animation-delay: 0s;
+
+ }@keyframes moveTo {
+   0% {
+       transform: translate3D(10px, -100px, 0);
+     }
+
+  }
+#slide0.s0_img_img2{
+     position :relative;
+     padding-left:650px;
+     padding-top: 60px;
+/*
+    opacity: 0;
+    visibility: hidden;
+*/
+      -webkit-animation: imageScaleIn ease-in-out  ;
+        animation-duration: 1.2s;
+        animation-delay: 0s;
+
  }
 
-
-
-.s0_img_img2{
-     margin-left:650px;
-    opacity: 0;
-    /*visibility: hidden;*/
-    animation-name: so_img_img2_animations;
-    animation-duration: 4s;
-    animation-delay: 3s;
- }@keyframes so_img_img2_animations {
-    from{ opacity: 0;  }
-      to{ opacity: 1;}
-  }
 
 /*Slide One*/
 .s1_img_Box{
     margin-left: 100px;
     margin-top: 190px;
+
+     -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
 }.s1_img_desc{
      margin-left: 450px;
      margin-top: -430px;
  }
+.s1_img_img1{
+  opacity:0 ;
+   -webkit-animation: 1s ease .25s normal forwards 1 ImageFadein;
+}.s1_img_img2{
+  opacity:0 ;
+  -webkit-animation: 1.3s ease .5s normal forwards 1 ImageFadein;
+}.s1_img_img3{
+  opacity:0 ;
+  -webkit-animation: 1.5s ease .75s normal forwards 1 ImageFadein;
+}.s1_img_img4{
+  opacity:0 ;
+  -webkit-animation: 1.7s ease 1s normal forwards 1 ImageFadein;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
  /*Slide Eleven */
  .s11_title{
    margin-top: 130px;
+   /*opacity:0 ;*/
+   -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
  }
  .s11_sub_title{
 margin-left: 65px;
+opacity:0 ;
+-webkit-animation: 1s ease .3s normal forwards 1 ImageFadein;
  }
 
  .s11_img{
 margin-left: 65px;
+opacity:0 ;
+-webkit-animation: 1s ease .5s normal forwards 1 ImageFadein;
  }
  .s11_box{
 margin-top: -350px;
    margin-left: 720px;
+   opacity:0 ;
+   -webkit-animation: 1s ease 1s normal forwards 1 ImageFadein;
  }
+
+
+
+
+
+
+
+
+
+
+
+
 
  /* Slide Twelve*/
  .s12_title{
    margin-top:130px;
+   -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
  }
  .s12_img{
    margin-top: -1px;
    margin-left:155px;
+   opacity:0 ;
+   -webkit-animation: 1s ease .3s normal forwards 1 ImageFadein;
  }
  .s12_box{
 
    margin-top: auto;
+   opacity:0 ;
+   -webkit-animation: 1s ease .5s normal forwards 1 ImageFadein;
  }
+
  /* Slide Therteen*/
  .s13_title{
    margin-top:130px;
+   -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
  }
  .s13_img{
    margin-top: -1px;
    margin-left:155px;
+   opacity:0 ;
+   -webkit-animation: 1s ease .5s normal forwards 1 ImageFadein;
  }
  .s13_box{
 
    margin-top: -40px;
    margin-left: 100px;
+   opacity:0 ;
+   -webkit-animation: 1s ease 1s normal forwards 1 ImageFadein;
  }
+
+
+
+
  /* Slide Fourteen*/
  .s14_title{
    margin-top:130px;
+      -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
  }
  .s14_img{
    margin-top: -1px;
    margin-left:155px;
+   opacity:0 ;
+   -webkit-animation: 1s ease .5s normal forwards 1 ImageFadein;
  }
  .s14_box{
 
    margin-top: -40px;
    margin-left:50px;
+   opacity:0 ;
+   -webkit-animation: 1s ease 1s normal forwards 1 ImageFadein;
  }
  /* Slide Fivteen*/
  .s15_title{
    margin-top:130px;
+      -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
  }
  .s15_video{
    margin-top: 50px;
    margin-left:60px;
+   opacity:0 ;
+   -webkit-animation: 1s ease .5s normal forwards 1 ImageFadein;
  }
  /* Slide Sixteen*/
  .s16_title{
    margin-top:130px;
+      -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
  }
  .s16_img{
 
@@ -119,29 +207,38 @@ margin-top: -350px;
    margin-left:200px;
    width:368px;
    float: left;
+   opacity:0 ;
+   -webkit-animation: 1s ease .5s normal forwards 1 ImageFadein;
  }
  .s16_imgs{
    width: 331px;
    float: right;
    margin-top: 80px;
 margin-right: 80px;
+  opacity:0 ;
+   -webkit-animation: 1s ease 1s normal forwards 1 ImageFadein;
  }
  .s16_ref{
    margin-top: 530px;
    margin-left:80px;
+   opacity:0 ;
+   -webkit-animation: 1s ease 1.5s normal forwards 1 ImageFadein;
  }
  /*Seventeen*/
  .s17_title{
    margin-top:150px;
    margin-left: 65px;
-
+   -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
  }
  .s17_sub_title{
 margin-left: 65px;
+   -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
  }
  .s17_img_desc{
       margin-left: 65px;
       margin-top: 30px;
+      opacity:0 ;
+      -webkit-animation: 1s ease .5s normal forwards 1 ImageFadein;
   }
 /*Eighteen*/
 .s18_graph1{
@@ -215,10 +312,12 @@ position: absolute;
 /*Nineteen*/
 .s19_title{
   margin-top: 130px;
+     -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
 }
 .s19_sub_title{
   margin-top: 10px;
 margin-left: 180px;
+   -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
 }
 .s19_graph{
   margin-top:10px;
@@ -244,6 +343,7 @@ position: absolute;
 /*Tweenty*/
 .s20_title{
   margin-top: 130px;
+     -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
 }
 .s20_graph{
 margin-top: 10px;
@@ -291,6 +391,7 @@ float: left;
 /*Tweentyone*/
 .s21_title{
   margin-top: 130px;
+     -webkit-animation: 1s ease 0s normal forwards 1 imageScaleIn;
 }
 .s21_sub_title{
   margin-top: 10px;

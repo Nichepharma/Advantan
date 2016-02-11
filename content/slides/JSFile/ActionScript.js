@@ -3,6 +3,7 @@
  */
 
 
+    /*
 myFunction(0);
 function myFunction(x) {
 // Return the text of the selected option
@@ -16,3 +17,5 @@ function myFunction(x) {
         alert("Your browser doesn't support this example!");
     }
 }
+s1_img_img1
+*/
