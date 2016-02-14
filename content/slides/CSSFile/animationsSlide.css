@@ -309,7 +309,7 @@ position: absolute;
 }@keyframes s18_line1ImageSize{
 
 from{
-  height: 0px ;
+  height: 10px ;
 }to{
     height:442px ;
     padding-top: 177px;}
@@ -339,7 +339,7 @@ position: absolute;
 }@keyframes s18_line2ImageSize{
 
 from{
-  height: 0px ;
+  height: 10px ;
 }to{
     height:442px ;
     padding-top: 25px;
@@ -394,18 +394,37 @@ margin-left: 180px;
 }
 .s19_bars{
 margin-left: 70px;
-margin-top: 35px;
-float: left;
+padding-top: 290px;
 width: 804px;
+height: 10px ;
 position: absolute;
  top: 0;
  left: 0;
  z-index: 1;
-}
+ -webkit-animation: 1s ease .5s normal forwards 1  s19_line2ImageSize;
+ }@keyframes s19_line2ImageSize{
+
+ from{
+  height: 10px ;
+ }to{
+    height:265px ;
+    padding-top: 35px;
+
+ }
+
+ }
+
+
+
+
 .s19_img_desc{
   margin-left: 65px;
   margin-top: 15px;
 }
+
+
+
+
 /*Tweenty*/
 .s20_title{
   margin-top: 130px;
@@ -417,43 +436,77 @@ margin-left: 100px;
 width:829px;
 float: left;
 position: relative;
+opacity:0 ;
+-webkit-animation: 1.3s ease .5s normal forwards 1 ImageFadein;
 }
 .s20_bars{
 margin-left: 60px;
-margin-top: 43px;
-float: left;
+padding-top: 265px;
 width: 256px;
+height: 10px;
 position: absolute;
  top: 0;
  left: 0;
  z-index: 1;
-}
-.s20_bars2{
+ -webkit-animation: 1s ease 1.5s normal forwards 1  s20_line1ImageSize;
+ }@keyframes s20_line1ImageSize{
+ from{
+  height: 10px ;
+ }to{
+     padding-top: 45px;
+    height: 231px;
+
+
+ }
+
+ }.s20_bars2{
 margin-left: 540px;
-margin-top: 40px;
-float: left;
+padding-top: 260px;
 width: 252px;
+height: 10px;
 position: absolute;
  top: 0;
  left: 0;
  z-index: 1;
-}
-.s20_table{
+ -webkit-animation: 1s ease 2s normal forwards 1  s20_line2ImageSize;
+ }@keyframes s20_line2ImageSize{
+ from{
+  height: 10px ;
+ }to{
+     padding-top: 40px;
+    height: 231px;
+ }
+}.s20_table{
 margin-top: 10px;
 margin-left: 50px;
 width:489px;
 float: left;
-}
-.s20_table2{
+opacity:0 ;
+-webkit-animation: 2s ease 2s normal forwards 1 ImageFadein;
+}.s20_table2{
 margin-top: 10px;
 margin-left: 50px;
 width:383px;
 float: left;
-}
-.s20_img_desc{
+opacity:0 ;
+-webkit-animation: 2s ease 1s normal forwards 1 ImageFadein;
+}.s20_img_desc{
   margin-left: 65px;
   margin-top: 15px;
+opacity:0 ;
+  -webkit-animation: 2s ease 2.5s normal forwards 1 ImageFadein;
 }
+
+
+
+
+
+
+
+
+
+
+
 /*Tweentyone*/
 .s21_title{
   margin-top: 130px;
@@ -462,8 +515,12 @@ float: left;
 .s21_sub_title{
   margin-top: 10px;
 margin-left: 50px;
+opacity:0 ;
+  -webkit-animation: 2s ease .5s normal forwards 1 ImageFadein;
 }
 .s21_img_desc{
   margin-left: 65px;
   margin-top: 15px;
+  opacity:0 ;
+    -webkit-animation: 2s ease 1s normal forwards 1 ImageFadein;
 }
